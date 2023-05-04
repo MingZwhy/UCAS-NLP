@@ -1,0 +1,6 @@
+tf2.0
+nltk
+re
+argparse
+
+关于nltk的安装，请见实验报告。

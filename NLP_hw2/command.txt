@@ -1,0 +1,27 @@
+1.
+运行命令：
+cd code
+python main.py
+
+若要调整超参数，请见code/main.py
+其中有详细的相关超参数的说明。
+
+2.
+notebook/FNN_RNN_LSTM.ipynb中记录了实验的原始过程。
+code/data_processing.py, model.py, output.py, main.py为后续整理过的代码。
+
+3.
+result为代码运行结果的输出，运行后包含三个.csv文件，记录输出的词向量与最近的20词。
+
+4.
+model_pic中保存了三种模型的结构图，用于实验报告。
+
+5.
+实验报告文件夹中包含实验报告。
+
+6.
+data文件夹中包含原始英文文本。
+若要使用其他英文文本，则将其置于data文件夹中，并改变--load_text_path超参数，
+例如：将your_english_text.txt置于data文件夹中，则运行命令如下：
+
+python main.py --load_text_path "../data/your_english_text.txt"
