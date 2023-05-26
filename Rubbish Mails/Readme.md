@@ -1,0 +1,9 @@
+decision Tree 里面主要是获取一些比较重要的数据，并使用软件Clementine 8.0自动生成决策树
+
+lstm是用lstm网络生成二分类模型
+
+sklearn_to_neturl里面是用sklearn库里的函数进行生成
+
+get number是获取某个字符串里面有多少个长度大于等于3的数字的函数
+
+NB是朴素贝叶斯，也是最后采用的方法，里面也添加了决策树
