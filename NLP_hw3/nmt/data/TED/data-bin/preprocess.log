@@ -1,0 +1,14 @@
+Namespace(aim_repo=None, aim_run_hash=None, align_suffix=None, alignfile=None, all_gather_list_size=16384, amp=False, amp_batch_retries=2, amp_init_scale=128, amp_scale_window=None, azureml_logging=False, bf16=False, bpe=None, cpu=False, criterion='cross_entropy', dataset_impl='mmap', destdir='/root/autodl-tmp/NLP_hw3/nmt/data/TED/data-bin', dict_only=False, empty_cache_freq=0, fp16=False, fp16_init_scale=128, fp16_no_flatten_grads=False, fp16_scale_tolerance=0.0, fp16_scale_window=None, joined_dictionary=False, log_file=None, log_format=None, log_interval=100, lr_scheduler='fixed', memory_efficient_bf16=False, memory_efficient_fp16=False, min_loss_scale=0.0001, model_parallel_size=1, no_progress_bar=False, nwordssrc=-1, nwordstgt=-1, on_cpu_convert_precision=False, only_source=False, optimizer=None, padding_factor=8, plasma_path='/tmp/plasma', profile=False, quantization_config_path=None, reset_logging=False, scoring='bleu', seed=1, source_lang='en', srcdict=None, suppress_crashes=False, target_lang='zh', task='translation', tensorboard_logdir=None, testpref='/root/autodl-tmp/NLP_hw3/nmt/data/TED/test', tgtdict=None, threshold_loss_scale=None, thresholdsrc=0, thresholdtgt=0, tokenizer=None, tpu=False, trainpref='/root/autodl-tmp/NLP_hw3/nmt/data/TED/train', use_plasma_view=False, user_dir=None, validpref='/root/autodl-tmp/NLP_hw3/nmt/data/TED/valid', wandb_project=None, workers=1)
+[en] Dictionary: 31280 types
+[en] /root/autodl-tmp/NLP_hw3/nmt/data/TED/train.en: 379083 sents, 8202877 tokens, 0.0% replaced (by <unk>)
+[en] Dictionary: 31280 types
+[en] /root/autodl-tmp/NLP_hw3/nmt/data/TED/valid.en: 9957 sents, 216027 tokens, 0.00694% replaced (by <unk>)
+[en] Dictionary: 31280 types
+[en] /root/autodl-tmp/NLP_hw3/nmt/data/TED/test.en: 9972 sents, 216003 tokens, 0.0139% replaced (by <unk>)
+[zh] Dictionary: 38888 types
+[zh] /root/autodl-tmp/NLP_hw3/nmt/data/TED/train.zh: 379083 sents, 7537819 tokens, 0.0% replaced (by <unk>)
+[zh] Dictionary: 38888 types
+[zh] /root/autodl-tmp/NLP_hw3/nmt/data/TED/valid.zh: 9957 sents, 198819 tokens, 0.0277% replaced (by <unk>)
+[zh] Dictionary: 38888 types
+[zh] /root/autodl-tmp/NLP_hw3/nmt/data/TED/test.zh: 9972 sents, 198062 tokens, 0.0237% replaced (by <unk>)
+Wrote preprocessed data to /root/autodl-tmp/NLP_hw3/nmt/data/TED/data-bin
